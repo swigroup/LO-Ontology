@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://lom.duth.gr/schema/"
-     xml:base="http://lom.duth.gr/schema/"
+<rdf:RDF xmlns="http://lom.hpclab.ceid.upatras.gr/schema/"
+     xml:base="http://lom.hpclab.ceid.upatras.gr/schema/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -8,10 +8,10 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:LOM="http://ltsc.ieee.org/xsd/LOM/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://lom.duth.gr/schema/">
+    <owl:Ontology rdf:about="http://lom.hpclab.ceid.upatras.gr/schema/">
         <dc:date>2018-08-12</dc:date>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Οντολογία περιγραφής Μαθησιακών Αντικείμενων (Learning Objects)</rdfs:comment>
-        <dc:rights xml:lang="en">DUTH</dc:rights>
+        <dc:rights xml:lang="en">HPCLab, University of Patras</dc:rights>
         <dc:description xml:lang="en">LOM Types Semantic Ontology Profile</dc:description>
         <owl:versionInfo>0.2</owl:versionInfo>
         <dc:creator xml:lang="en">Dimitrios Koutsomitropoulos</dc:creator>
@@ -377,43 +377,6 @@
      -->
 
     
-
-
-    <!-- http://lom.duth.gr/try1 -->
-
-    <owl:NamedIndividual rdf:about="http://lom.duth.gr/try1">
-        <rdf:type rdf:resource="http://ltsc.ieee.org/xsd/LOM/LearningResourceType"/>
-        <rdfs:label xml:lang="el">δοκιμή1</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://lom.duth.gr/schema/MA_1 -->
-
-    <owl:NamedIndividual rdf:about="http://lom.duth.gr/schema/MA_1">
-        <rdf:type rdf:resource="http://ltsc.ieee.org/xsd/LOM/LearningObject"/>
-        <rdfs:label>MA_1</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://lom.duth.gr/schema/%CF%84%CE%B5%CF%83%CF%841 -->
-
-    <owl:NamedIndividual rdf:about="http://lom.duth.gr/schema/%CF%84%CE%B5%CF%83%CF%841">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <LOM:keyword rdf:resource="http://lom.duth.gr/schema/http%3A%2F%2Fthesaurus.duth.gr%2Fmedicine%2F%CE%B1%CF%83%CE%B8%CE%AD%CE%BD%CE%B5%CE%B9%CE%B5%CF%82"/>
-        <rdfs:label>τεστ1</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://lom.duth.gr/schema/http%3A%2F%2Fthesaurus.duth.gr%2Fmedicine%2F%CE%B1%CF%83%CE%B8%CE%AD%CE%BD%CE%B5%CE%B9%CE%B5%CF%82 -->
-
-    <owl:NamedIndividual rdf:about="http://lom.duth.gr/schema/http%3A%2F%2Fthesaurus.duth.gr%2Fmedicine%2F%CE%B1%CF%83%CE%B8%CE%AD%CE%BD%CE%B5%CE%B9%CE%B5%CF%82">
-        <rdfs:label>http://thesaurus.duth.gr/medicine/ασθένειες</rdfs:label>
-    </owl:NamedIndividual>
-    
-
 
     <!-- http://ltsc.ieee.org/xsd/LOM/Active -->
 
@@ -872,15 +835,6 @@
         <rdfs:label xml:lang="el">Πολύ_εύκολο</rdfs:label>
     </owl:Thing>
     
-
-
-    <!-- http://ltsc.ieee.org/xsd/LOM/%CE%93%CE%B5%CF%89%CF%81%CE%B3%CE%AF%CE%B1_%CE%A3%CE%BF%CE%BB%CF%89%CE%BC%CE%BF%CF%8D -->
-
-    <owl:NamedIndividual rdf:about="http://ltsc.ieee.org/xsd/LOM/%CE%93%CE%B5%CF%89%CF%81%CE%B3%CE%AF%CE%B1_%CE%A3%CE%BF%CE%BB%CF%89%CE%BC%CE%BF%CF%8D">
-        <rdfs:label>Γεωργία Σολωμού</rdfs:label>
-    </owl:NamedIndividual>
-    
-
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
